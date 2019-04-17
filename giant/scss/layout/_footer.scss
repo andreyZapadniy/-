@@ -1,0 +1,36 @@
+.footer{
+	text-align: center;
+	background: #000;
+	padding: 40px 0;
+	&__title{
+		color:#fff;
+	}
+}
+.facebook{
+	background: url(../img/face.png) 0 0 no-repeat;
+	padding: 5px 15px;
+	&:hover{
+		background: url(../img/face-active.png) 0 0 no-repeat;
+	}
+}
+.twitter{
+	background: url(../img/twit.png) 0 0 no-repeat;
+	padding: 5px 15px;
+	&:hover{
+		background: url(../img/twit-active.png) 0 0 no-repeat;
+	}
+}
+.koleso{
+	background: url(../img/kol.png) 0 0 no-repeat;
+	padding: 5px 15px;
+	&:hover{
+		background: url(../img/kol-active.png) 0 0 no-repeat;
+	}
+}
+.behans{
+	background: url(../img/be.png) 0 0 no-repeat;
+	padding: 5px 15px;
+	&:hover{
+		background: url(../img/be-active.png) 0 0 no-repeat;
+	}
+}

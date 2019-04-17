@@ -1,0 +1,32 @@
+$gragient: linear-gradient(to left,#fd712c, #ef1b77);
+.header{
+	position: relative;
+	z-index: 1;
+	&__container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 20px;
+	}
+}
+.nav{
+	display: flex;
+	align-items: center;
+	&__list{
+		display: flex;
+	}
+	&__item{
+		margin-right: 40px;
+	}
+	&__button{
+		background-color: #fbadc3;
+		border-radius: 20px;
+		padding: 5px 20px;
+		border: none;
+		outline: none;
+		transition: 0.5s;
+		&:hover{
+			background: $gragient;
+		}
+	}
+}
